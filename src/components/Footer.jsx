@@ -9,7 +9,7 @@ const Footer = () => {
           </p>
           <p className="text-white font-sen-sen text-[15px] ml-3 mr-3 mx-auto sm:w-[400px] sm:h-[100px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus
-            ac ipsum sed rhoncus. Nam euismod auctor ipsum.
+            ac ipsum sed rhoncus. 
           </p>
         </div>
 
