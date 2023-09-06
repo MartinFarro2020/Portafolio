@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <form className="h-screen pt-[40px] mb-[100px] mt-[560px]">
+    <form className="h-screen pt-[40px] mb-[100px] mt-[560px]" id="footer">
       <section className="grid gap-10 sm:flex">
 
         <div className="grid gap-6 justify-center item center sm:ml-[200px] sm:mt-[100px]">
