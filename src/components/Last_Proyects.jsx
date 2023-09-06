@@ -15,11 +15,11 @@ const Last_Proyects = () => {
           //* IMAGES */
         <div className="relative grid justify-center items-center mt-[30px] -ml-[20px] sm:-mt-[280px] sm:ml-[100px]">
           
-          <div className="absolute h-[420px] w-[300px] mt-[200px] ml-[20px] bg-[url(./images/Mask_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(./images/Mask_desktop.png)] sm:w-[505px] sm:h-[517px] sm:-ml-[50px] sm:-mt-[120px]"></div>
+          <div className="absolute h-[420px] w-[300px] mt-[200px] ml-[20px] bg-[url(/images/Mask_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Mask_desktop.png)] sm:w-[505px] sm:h-[517px] sm:-ml-[50px] sm:-mt-[120px]"></div>
 
-          <div className="absolute h-[250px] w-[200px] mt-[430px] ml-[80px] bg-[url(./images/Ellipse_rigth_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(./images/Ellipse_rigth_desktop.png)] sm:w-[340px] sm:h-[100px] sm:ml-[100px] sm:mt-[150px]"></div>
+          <div className="absolute h-[250px] w-[200px] mt-[430px] ml-[80px] bg-[url(/images/Ellipse_rigth_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Ellipse_rigth_desktop.png)] sm:w-[340px] sm:h-[100px] sm:ml-[100px] sm:mt-[150px]"></div>
 
-          <div className="absolute h-[250px] w-[180px] mt-[70px] ml-[80px] bg-[url(./images/Mobil_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(./images/Mobil_desktop.png)] sm:w-[322px] sm:h-[365px] sm:ml-[50px] sm:-mt-[200px]"></div>
+          <div className="absolute h-[250px] w-[180px] mt-[70px] ml-[80px] bg-[url(/images/Mobil_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Mobil_desktop.png)] sm:w-[322px] sm:h-[365px] sm:ml-[50px] sm:-mt-[200px]"></div>
 
           
         

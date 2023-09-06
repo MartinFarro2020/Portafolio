@@ -7,7 +7,7 @@ const Contact = () => {
           <p className="text-white mx-4 font-sen-sen text-[15px] sm:text-[14px] sm:w-[470px] sm:h-[34px] sm:mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum.</p>
           <button className="text-white border-2 border-white w-[95px] rounded-md mx-[80px] sm:mx-auto">Click Here</button>
         </div>  
-        <div className="absolute h-[28px] w-[97px] sm:[url(./images/Nube_desk_cinco.png)] sm:w-[300px] sm:h-[500px]"></div>
+        <div className="absolute h-[28px] w-[97px] sm:[url(/images/Nube_desk_cinco.png)] sm:w-[300px] sm:h-[500px]"></div>
       </section>
     </section> 
   )
