@@ -6,9 +6,9 @@ import Last_Proyects from "./Last_Proyects";
 const Nav = () => {
   return (
     <main className="min-h-screen ">
-      <form className="grid relative bg-black max-w-[1440px] pt-[10px] mx-auto" id="home">
-        <section>
-          <nav className="grid justify-Center text-gray-100 invisible sm:visible">
+      <form className="grid relative bg-black max-w-[1440px] mx-auto" id="home">
+        <header className="fixed w-full">
+          <nav className="grid justify-Center bg-black h-[30px] text-gray-100 invisible sm:visible">
             <ul class="flex justify-Center items-center gap-4 mx-auto text-[12px] sm:text-[17px] sm:gap-10">
               <li>
                 <a href="#home">Home</a>
@@ -24,7 +24,7 @@ const Nav = () => {
               </li>
             </ul>
           </nav>
-        </section>
+        </header>
       </form>
       <section className="grid relative">
         
@@ -33,7 +33,7 @@ const Nav = () => {
         <div className="absolute  h-[7px] w-[25px]  mt-[160px] ml-[80px] bg-[url(/images/Ellipse_mobile_uno.svg)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Ellipse_desk_uno.svg)] sm:h-[10px] sm:w-[65px] sm:ml-[680px] sm:mt-[300px]"></div>
         <div className="absolute h-[12px] w-[41px] mt-[80px] ml-[40px] bg-[url(/images/Ellipse_mobile_dos.svg)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Ellipse_desktop_dos.svg)] sm:h-[31px] sm:w-[107px] sm:ml-[540px] sm:mt-[100px]"></div>
         <div className="absolute  h-[12px] w-[40px] mt-[50px] ml-[80px] bg-[url(/images/Ellipse_mobile_tres.svg)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Ellipse_desktop_tres.svg)] sm:h-[31px] sm:w-[107px] sm:ml-[640px] sm:mt-[40px]"></div>
-        <div className="absolute h-[28px] w-[97px] mt-[50px] ml-[180px] bg-[url(/images/Ellipse_mobile_cuatro.svg)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Ellipse_desk_cuatro.svg)] sm:h-[70px] sm:w-[250px] sm:ml-[940px] sm:mt-[40px]"></div>
+        <div className="absolute h-[28px] w-[97px] mt-[50px] ml-[180px] bg-[url(/images/Ellipse_left_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Ellipse_left_desktop.svg)] sm:h-[70px] sm:w-[250px] sm:ml-[940px] sm:mt-[40px]"></div>
         
         
         //*Nubes*//
