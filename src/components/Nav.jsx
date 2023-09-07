@@ -1,21 +1,26 @@
+import Buttons from "./Buttons";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import Last_Proyects from "./Last_Proyects";
+
 const Nav = () => {
   return (
     <main className="min-h-screen ">
-      <form className="grid relative bg-black max-w-[1440px] pt-[10px] mx-auto ob">
+      <form className="grid relative bg-black max-w-[1440px] pt-[10px] mx-auto" id="home">
         <section>
-          <nav className="grid justify-Center text-gray-100">
-            <ul class="flex justify-Center items-center gap-4 mx-auto text-[12px] invisible sm:visible sm:text-[17px] sm:gap-10">
+          <nav className="grid justify-Center text-gray-100 invisible sm:visible">
+            <ul class="flex justify-Center items-center gap-4 mx-auto text-[12px] sm:text-[17px] sm:gap-10">
               <li>
-                <a href="#footer">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="">Proyects</a>
+                <a href="#proyects">Proyects</a>
               </li>
               <li>
-                <a href="">About me</a>
+                <a href="#buttons">About me</a>
               </li>
               <li>
-                <a href="">Contact me</a>
+                <a href="#contact">Contact me</a>
               </li>
             </ul>
           </nav>
@@ -59,6 +64,10 @@ const Nav = () => {
           </div>
         </div>
       </section>
+      <Buttons />
+      <Last_Proyects id="proyects" />
+      <Footer />
+      <Contact />
     </main>
   );
 };

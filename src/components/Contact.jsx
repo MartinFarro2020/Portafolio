@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="grid h-screen mt-[40px]">
+    <section className="grid h-screen mt-[40px]" id="contact">
       <section className="mx-auto justify-center items-center">
         <div className="grid py-20 text-center w-[250px] h-[400px] bg-zinc-800 rounded-3xl items-center sm:w-[890px] sm:h-[370px]">
           <p className="text-[35px] font-semibold text-[#9BA4ED] mx-auto sm:text-[48px] sm:text-white">Contact me!</p>

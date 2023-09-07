@@ -11,10 +11,6 @@ function App() {
   return (
     <main className='min-h-screen bg-black'>
     <Nav />
-    <Buttosn />
-    <Last_Proyects />
-    <Footer />
-    <Contact />
     </main>
   )
 }
