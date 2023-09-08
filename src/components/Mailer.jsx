@@ -9,7 +9,7 @@ const Mailer = () => {
 
   return (
     <div className="container border">
-        <h1>Contact me!</h1>
+        <h1>Contact Me!</h1>
         <form className="text-white flex flex-col" onSubmit={sendEmail}>
             <label className="">Name</label>
             <input type="text" name="name" className="form-control"/>
