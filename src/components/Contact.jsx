@@ -1,4 +1,4 @@
-import Mailer from "./mailer";
+import Mailer from "./Mailer";
 
 const Contact = () => {
 
