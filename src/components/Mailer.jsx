@@ -8,7 +8,7 @@ const Mailer = () => {
     }
 
   return (
-    <div className="container border" style={{marginTop:"50px", width:"50%",backgroundPosition:"center",backgroundSize:"cover"}}>
+    <div className="container border">
         <h1>Contact me!</h1>
         <form className="text-white flex flex-col" onSubmit={sendEmail}>
             <label className="">Name</label>
@@ -19,7 +19,7 @@ const Mailer = () => {
 
             <label>Messaje</label>
             <textarea name="message" rows="4" className="form-control"/>
-            <input type="submit" value="Send" className="form-control btn btn-primary" style={{marginTop:"30px"}}/>
+            <input type="submit" value="Send" className="form-control btn btn-primary"/>
         </form>
     </div>
   );
