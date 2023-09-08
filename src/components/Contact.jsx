@@ -11,7 +11,7 @@ const Contact = () => {
       <section className="grid">
         <section className="grid mt-[250px] mb-[200px] mx-auto justify-center items-center sm:mt-[300px] sm:mb-[300px] ">
           <div className="grid text-center w-[250px] h-[400px] bg-zinc-800 rounded-3xl items-center -mt-[150px] sm:w-[890px] sm:h-[370px]">
-            <p className="text-[35px] font-semibold text-[#9BA4ED] mx-auto sm:text-[48px] sm:text-white">
+            <p className="text-[34px] font-semibold text-[#9BA4ED] mx-auto sm:text-[48px] sm:text-white">
               Contact me!
             </p>
             <div>
