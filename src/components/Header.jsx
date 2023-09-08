@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <main className="bg-black sm:-mb-[20px]">
-      <form className=" grid mx-auto sm:-mt-[600px]">
+      <form className=" grid mx-auto mt-[100px] sm:-mt-[600px]">
         
 
         <div className="h-[12px] w-[41px] -mt-[500px] ml-[30px] bg-[url(/images/Ellipse_mobile_dos.svg)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Ellipse_desktop_dos.svg)] sm:h-[31px] sm:w-[107px] sm:ml-[550px] sm:mt-[100px]"></div>
@@ -35,11 +35,7 @@ const Header = () => {
               work with. If you have a great project that needs some amazing
               skills, I’m your guy.
             </p>
-            <div className="flex mt-[20px]">
-              <button className="text-white border-2 border-white w-[95px] rounded-md sm:-ml-[80px]">
-                Click Here
-              </button>
-            </div>
+            
           </div>
         </section>
       </form>

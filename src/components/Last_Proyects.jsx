@@ -1,23 +1,23 @@
 const Last_Proyects = () => {
   return (
-    <main className="bg-black -mt-[250px] sm:-mt-[500px]" id="proyects">
+    <main className="bg-black -mt-[250px] sm:mt-[400px]" id="proyects">
     <section className="flex flex-col">
-      <section className="grid text-left justify-center items-center sm:gap-9">
-        <div className="grid sm:mt-[900px] sm:-ml-[360px]">
-          <p className="text-[32px] font-semibold text-[#9BA4ED] ml-2 mr-2 mx-auto md:w-[522px] md:h-[116px] sm:text-[48px]">
-            Last Landing{" "}
+      <section className="grid text-left justify-center items-center sm:gap-9 -sm:mt-[100px]">
+        <div className="grid sm:-mt-[300px] sm:-ml-[360px]">
+          <p className="text-[32px] font-semibold text-[#9BA4ED] ml-2 mr-2 mx-auto md:w-[522px] md:h-[116px] sm:text-[48px] sm:mt-[400px]">
+            Last Landing 
             <span className="text-white">and website proyects</span>
           </p>
           
         </div>
 
         {/* IMAGES  */}
-        <div className="grid justify-center items-center -ml-[20px] sm:-mt-[280px] sm:ml-[100px]">
-          <div className="h-[200px] w-[270px] mt-[50px] -ml-[20px] bg-[url(/images/Mask_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Mask_desktop.png)] sm:w-[505px] sm:h-[517px] sm:-ml-[50px] sm:-mt-[120px]"></div>
+        <div className="grid justify-center items-center -ml-[20px] sm:mt-[40px] sm:ml-[100px]">
+          <div className="h-[200px] w-[270px] mt-[50px] -ml-[20px] bg-[url(/images/Mask_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Mask_desktop.png)] sm:w-[305px] sm:h-[317px] sm:ml-[100px] sm:-mt-[250px]"></div>
 
-          <div className="h-[150px] w-[150px] -mt-[70px] ml-[80px] bg-[url(/images/Ellipse_rigth_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Ellipse_rigth_desktop.png)] sm:w-[340px] sm:h-[100px] sm:ml-[100px] sm:-mt-[250px]"></div>
+          <div className="h-[150px] w-[150px] -mt-[70px] ml-[80px] bg-[url(/images/Ellipse_rigth_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Ellipse_rigth_desktop.png)] sm:w-[240px] sm:h-[50px] sm:ml-[120px] sm:-mt-[150px]"></div>
 
-          <div className="h-[190px] w-[120px] -mt-[350px] ml-[90px] bg-[url(/images/Mobil_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Mobil_desktop.png)] sm:w-[322px] sm:h-[365px] sm:ml-[50px] sm:-mt-[600px]"></div>
+          <div className="h-[190px] w-[120px] -mt-[350px] ml-[90px] bg-[url(/images/Mobil_mobile.png)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Mobil_desktop.png)] sm:w-[190px] sm:h-[265px] sm:ml-[150px] sm:-mt-[320px]"></div>
         </div>
       </section>
 
@@ -104,7 +104,7 @@ const Last_Proyects = () => {
           </div>
         </section>
 
-        <div className="absolute h-[300px] w-[300px] -mt-[40px] ml-[30px] bg-[url(/images/Nube_mobile_cuatro.svg)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Nube_desk_cuatro.svg)] sm:w-[80px] sm:h-[100px] sm:mt-[60px] sm:ml-[250px]"></div>
+        {/* <div className="h-[300px] w-[300px] -mt-[40px] ml-[30px] bg-[url(/images/Nube_mobile_cuatro.svg)] bg-contain bg-right-top bg-no-repeat sm:[url(/images/Nube_desk_cuatro.svg)] sm:w-[80px] sm:h-[100px] sm:mt-[60px] sm:ml-[250px]"></div> */}
       </section>
     </section>
     </main>
