@@ -1,6 +1,6 @@
 const SobreMi = () => {
   return (
-    <main className="bg-black mt-[600px] sm:-mt-[1400px] " id="sobremi">
+    <main className="bg-black -mt-[150px] sm:-mt-[1400px] " id="sobremi">
     <section className="">
       <section className="grid grid-row gap-10 mx-[6px] sm:flex sm:gap-5">
 
