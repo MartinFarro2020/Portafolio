@@ -16,7 +16,6 @@ function App() {
     <SobreMi />
     <Buttons />
     <Last_Proyects />
-    
     <Contact />
     </main>
   )
