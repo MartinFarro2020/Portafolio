@@ -4,12 +4,12 @@ const SobreMi = () => {
     <section className="">
       <section className="grid grid-row gap-10 mx-[6px] sm:flex sm:gap-5">
 
-        <div className="gap-6 mt-[100px] justify-center pl-3 mx-2 item center sm:ml-[200px] sm:mt-[300px]">
-          <p className="text-[25px] font-semibold text-[#9BA4ED] ml-2 mr-2 mx-auto sm:w-[500px] sm:h[50px]">
+        <div className="gap-6 mt-[100px] sm:ml-[200px] sm:mt-[300px]">
+          <p className="text-[25px] font-semibold text-[#9BA4ED] mx-auto sm:w-[500px] sm:h[50px]">
             Hola soy Martin Farro<span className="text-white text-[23px]"> estudiante de Acadelmo</span>
           </p>
-          <p className="text-white font-sen-sen text-[15px] ml-2 mr-3 mx-auto sm:w-[400px] sm:h-[100px]">
-            Me estoy formando como desarrollador Front-end creando proyectos utilizando herramientas de programación. 
+          <p className="text-white font-sen-sen text-[15px] mt-[10px] sm:w-[400px] sm:h-[100px]">
+            Me estoy formando como desarrollador Front-end creando proyectos, utilizando herramientas de programación. 
           </p>
         </div>
 

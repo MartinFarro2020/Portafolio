@@ -30,7 +30,7 @@ const Header = () => {
             <p className="text-[30px] font-sen-sen text-[#9BA4ED] text-left mt-[230px] sm:text-[48px] sm:w-[550px] sm:mt-[500px] sm:-ml-[80px] sm:font-bold">
               Hi! <span className="text-white">I’am a backend developed</span>
             </p>
-            <p className="text-white font-sen-sen text-[14px] text-left mx-auto sm:w-[440px] sm:-ml-[75px]">
+            <p className="text-white font-sen-sen text-[14px] text-left sm:w-[440px] sm:-ml-[75px]">
               I’m probably the most passionate developer you will ever get to
               work with. If you have a great project that needs some amazing
               skills, I’m your guy.
