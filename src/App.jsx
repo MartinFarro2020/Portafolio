@@ -1,16 +1,23 @@
 import './App.css'
-import Buttosn from './components/Buttons'
+import Buttons from './components/Buttons'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Header from './components/Header'
 import Last_Proyects from './components/Last_Proyects'
 import Nav from './components/Nav'
+import SobreMi from './components/SobreMi'
 
 
 function App() {
   
   return (
-    <main className='min-h-screen bg-black'>
+    <main className="bg-black">
     <Nav />
+    <Header />
+    <SobreMi />
+    <Buttons />
+    <Last_Proyects />
+    
+    <Contact />
     </main>
   )
 }
